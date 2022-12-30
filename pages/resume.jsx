@@ -1,7 +1,7 @@
 import Header from "../components/Header";
-import styles from "../styles/Home.module.css";
+// import styles from "../styles/Resume.module.css";
 
-export default function Home() {
+export default function Resume() {
 	return (
 		<>
 			<main className="app">

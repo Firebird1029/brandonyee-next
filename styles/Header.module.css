@@ -1,0 +1,55 @@
+.nameHeader {
+	font-size: 11vw;
+	margin: 0;
+}
+
+.nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0rem;
+	z-index: 2;
+	background-color: white;
+	padding: 0.5rem 0;
+
+	font-family: "Playfair Display";
+
+	height: 3rem;
+}
+
+.navMobile {
+	position: "absolute";
+	width: 100%;
+	background-color: white;
+	height: calc(100vh - 3rem);
+	padding-top: 2rem;
+}
+
+.navlink {
+	margin-bottom: 0.75rem;
+	font-size: 1rem;
+}
+
+@media only screen and (min-device-width: 768px) {
+	.nameHeader {
+		text-align: left;
+		font-size: 5.9rem;
+	}
+
+	.navDesktop {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 1rem;
+	}
+
+	.navlink {
+		margin-bottom: unset;
+		margin-right: 2rem;
+		font-size: 1.25rem;
+	}
+}
+
+@media only screen and (min-device-width: 1024px) {
+	.nameHeader {
+		font-size: 8.1rem;
+	}
+}
