@@ -17,7 +17,7 @@
 }
 
 .navMobile {
-	position: "absolute";
+	position: absolute;
 	width: 100%;
 	background-color: white;
 	height: calc(100vh - 3rem);

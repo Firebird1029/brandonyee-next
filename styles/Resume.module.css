@@ -1,0 +1,52 @@
+.sectionHeader {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 3rem;
+	z-index: 1;
+
+	width: 100%;
+	padding-bottom: 1rem;
+
+	height: 4.5rem;
+	background: white;
+	background: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 1) 25%,
+		rgba(255, 255, 255, 1) 100%
+	);
+}
+
+.resumeSectionFlex {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.jobTitleCompany {
+	margin-bottom: 0.25rem;
+}
+
+@media only screen and (min-device-width: 768px) {
+	.sectionHeader {
+		height: 6rem;
+		padding-top: 1rem;
+
+		background: linear-gradient(
+			0deg,
+			rgba(255, 255, 255, 0) 0%,
+			rgba(255, 255, 255, 1) 45%,
+			rgba(255, 255, 255, 1) 100%
+		);
+	}
+
+	.jobTitleCompany {
+		margin-bottom: 0rem;
+	}
+}
+
+@media only screen and (min-device-width: 1024px) {
+	.resumeSectionFlex {
+		flex-direction: row;
+	}
+}
