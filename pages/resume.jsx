@@ -96,27 +96,32 @@ export default function Resume() {
 							PROJECTS
 						</h2>
 					</div>
-					{projectData.map(({ title, description, year, id }) => (
-						<div key={id}>
-							<div className={styles.resumeSectionFlex}>
-								<div className={styles.jobTitleCompany}>
-									<strong>{title}</strong>
+					{projectData
+						.sort(({ year: y1, title: t1 }, { year: y2, title: t2 }) =>
+							// sort by year descending, then by title ascending
+							y1 === y2 ? t1 - t2 : y2 - y1
+						)
+						.map(({ title, description, year, id }) => (
+							<div key={id}>
+								<div className={styles.resumeSectionFlex}>
+									<div className={styles.jobTitleCompany}>
+										<strong>{title}</strong>
 
-									<span className="hidden-touch">
-										&nbsp;&nbsp;/&nbsp;&nbsp;
-									</span>
-									<br className="hidden-desktop" />
+										<span className="hidden-touch">
+											&nbsp;&nbsp;/&nbsp;&nbsp;
+										</span>
+										<br className="hidden-desktop" />
 
-									<em>{year}</em>
+										<em>{year}</em>
+									</div>
+								</div>
+								<div style={{ marginTop: "-0.5rem" }}>
+									<div className="markdown" style={{ marginBottom: "2rem" }}>
+										<ReactMarkdown>{description}</ReactMarkdown>
+									</div>
 								</div>
 							</div>
-							<div style={{ marginTop: "-0.5rem" }}>
-								<div className="markdown" style={{ marginBottom: "2rem" }}>
-									<ReactMarkdown>{description}</ReactMarkdown>
-								</div>
-							</div>
-						</div>
-					))}
+						))}
 				</div>
 			</main>
 			<section className={`${styles.parallax} hidden-touchs`}>
