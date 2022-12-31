@@ -1,9 +1,12 @@
 import Image from "next/image";
+import { useRouter } from "next/router";
 import Header from "../components/Header";
 import styles from "../styles/Projects.module.css";
 import { projects } from "../projects.js";
 
 export default function Projects() {
+	const router = useRouter();
+
 	return (
 		<>
 			<main className="app">
@@ -34,7 +37,11 @@ export default function Projects() {
 								linkHref,
 								linkText,
 							}) => (
-								<div key={id} className={`${styles.card} ${styles.glass}`}>
+								<div
+									key={id}
+									className={`${styles.card} ${styles.glass}`}
+									onClick={() => router.push(`/project/${id}`)}
+								>
 									<div className={styles.hoverGradient}></div>
 									<h3>{title}</h3>
 									<p>{year}</p>

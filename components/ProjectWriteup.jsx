@@ -1,9 +1,12 @@
 /* global hljs */
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
+import Script from "next/script";
 
 export default function ProjectWriteup({ name }) {
 	const [markdownString, setMarkdownString] = useState("Loading...");
+	const [hljsObj, setHljsObj] = useState(null);
+
 	useEffect(() => {
 		if (!name) return;
 
@@ -15,14 +18,21 @@ export default function ProjectWriteup({ name }) {
 			.catch((err) => console.log(err));
 	}, [name]);
 
-	useEffect(() => hljs.highlightAll(), [markdownString]);
+	useEffect(() => {
+		hljsObj && hljsObj.highlightAll();
+	}, [markdownString, hljsObj]);
 
 	return (
 		<>
 			<div>
 				<ReactMarkdown>{markdownString}</ReactMarkdown>
 			</div>
-			<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"></script>
+			<Script
+				src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"
+				onReady={() => {
+					setHljsObj(hljs);
+				}}
+			/>
 		</>
 	);
 }

@@ -12,8 +12,8 @@ export default function ProjectPage() {
 		<main className="app">
 			<Header />
 
-			<div style={{ margin: "2rem 0;" }}>
-				<a href="#" onClick={() => router.back()}>
+			<div style={{ margin: "2rem 0" }}>
+				<a onClick={() => router.back()} style={{ cursor: "pointer" }}>
 					<strong>
 						<FontAwesomeIcon icon={faArrowLeft} size="1x" />
 						<span style={{ fontSize: "1.1rem" }}>&nbsp;Return</span>
