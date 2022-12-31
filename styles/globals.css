@@ -35,6 +35,10 @@ body {
 	.app {
 		max-width: 62rem;
 	}
+
+	.app.app-wide {
+		max-width: 86rem;
+	}
 }
 
 /* General Style */
