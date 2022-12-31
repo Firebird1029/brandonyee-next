@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 
 :root {
+	--font-family-block: "Playfair Display", "Times New Roman", serif;
 	--link-hover-border: 1px solid #254f93;
 }
 
@@ -10,7 +11,7 @@
 
 body {
 	margin: 0;
-	padding: 2rem 1rem;
+	padding: 2rem 0;
 	font-family: "Source Sans Pro", "Arial", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -20,6 +21,7 @@ body {
 .app {
 	margin: 0 auto;
 	padding: 0 1rem;
+	background-color: white;
 }
 
 @media only screen and (min-device-width: 768px) {
@@ -83,7 +85,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Playfair Display", "Times New Roman", serif;
+	font-family: var(--font-family-block);
 
 	/* cursor: default;
 	-webkit-touch-callout: none;
@@ -108,7 +110,7 @@ button {
 	background-color: inherit;
 	color: #22288c;
 
-	font-family: "Playfair Display", "Times New Roman", serif;
+	font-family: var(--font-family-block);
 	font-weight: 700;
 	text-decoration: none;
 	text-align: center;
