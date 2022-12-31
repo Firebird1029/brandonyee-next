@@ -38,8 +38,7 @@ export default function Home() {
 							>
 								resume
 							</Link>
-							. Additionally, you can view some of my personal projects by
-							visiting the{" "}
+							. Additionally, you can view some of my personal projects on the{" "}
 							<Link
 								href="/projects"
 								style={{ borderBottom: "1px solid #254f93" }}

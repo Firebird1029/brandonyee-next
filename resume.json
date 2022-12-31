@@ -58,7 +58,7 @@
 				"monthsInPosition": 8,
 				"isCurrent": false
 			},
-			"jobDescription": "- Designed and built a memorial planning website for a rising startup client using Firebase, Pug (planmemorial.com), enabling them to become one of four finalists for the Manolo Sanchez Prize in the 2022 Yale Startup Competition \n-Built the frontend UI of an automated discounted cash flow (DCF) modeling program for a startup using React, eliminating manual DCF data entry & formatting which accounts for 30%+ of a typical entry-level investor's workflow ",
+			"jobDescription": "- Designed and built a memorial planning website for a rising startup client using Firebase, Pug ([planmemorial.com](https://planmemorial.com)), enabling them to become one of four finalists for the Manolo Sanchez Prize in the 2022 Yale Startup Competition \n-Built the frontend UI of an automated discounted cash flow (DCF) modeling program for a startup using React, eliminating manual DCF data entry & formatting which accounts for 30%+ of a typical entry-level investor's workflow ",
 			"occupation": {
 				"jobTitle": "Venture Project Specialist",
 				"jobTitleNormalized": "Venture Analyst",
@@ -166,7 +166,7 @@
 				"monthsInPosition": 9,
 				"isCurrent": false
 			},
-			"jobDescription": "- Redesigned the website for Central Pacific Bank, Hawaii's 4th largest bank servicing 331.79K site visits a month, including handling ~2-3 weekly maintenance/feature tickets from client, using C#, Bootstrap 4, and Umbraco (cpb.bank) \n-Developed new homepage widgets for Board of Water Supply (boardofwatersupply.com) and integrated deployment pipeline into the cloud using AWS Lambda, S3, DynamoDB, CloudWatch with server synchronization and feature rollback ",
+			"jobDescription": "- Redesigned the website for Central Pacific Bank, Hawaii's 4th largest bank servicing 331.79K site visits a month, including handling ~2-3 weekly maintenance/feature tickets from client, using C#, Bootstrap 4, and Umbraco (cpb.bank) \n-Developed new homepage widgets for Board of Water Supply ([boardofwatersupply.com](https://boardofwatersupply.com)) and integrated deployment pipeline into the cloud using AWS Lambda, S3, DynamoDB, CloudWatch with server synchronization and feature rollback ",
 			"occupation": {
 				"jobTitle": "Software Engineering Intern",
 				"jobTitleNormalized": "Software Engineering Intern",
@@ -235,7 +235,7 @@
 				"monthsInPosition": 24,
 				"isCurrent": false
 			},
-			"jobDescription": "- Oversaw agile development flow in JIRA for other developers in an emerging international edtech startup (projectant.io) \n-Performed code review on incoming pull requests, maintain API documentation in Postman, and refactor codebase to ensure modularity and scalability in Typescript, Node.js, Express, Passport.js, Stripe, PostgreSQL, Docker, and TypeORM \n-Organized and onboarded a team of six Open Water Accelerator developer interns by setting up documentation, AWS keys, Dockerfiles, and linting standards to enhance experience for all developers and maintain consistency in codebase ",
+			"jobDescription": "- Oversaw agile development flow in JIRA for other developers in an emerging international edtech startup ([projectant.io](https://www.projectant.io)) \n-Performed code review on incoming pull requests, maintain API documentation in Postman, and refactor codebase to ensure modularity and scalability in Typescript, Node.js, Express, Passport.js, Stripe, PostgreSQL, Docker, and TypeORM \n-Organized and onboarded a team of six Open Water Accelerator developer interns by setting up documentation, AWS keys, Dockerfiles, and linting standards to enhance experience for all developers and maintain consistency in codebase ",
 			"occupation": {
 				"jobTitle": "Backend Development Lead, Founding Member",
 				"jobTitleNormalized": "Founding Member",
@@ -301,7 +301,7 @@
 				"monthsInPosition": 67,
 				"isCurrent": true
 			},
-			"jobDescription": "- Serve as a solo full-stack developer for a church website (convergehawaii.org) using Node.js, Express, and Airtable API \n-Integrate live streaming, realtime video conferencing, dynamic rendering via Pug.js, interactive calendar, user-friendly spreadsheet-database CMS via Airtable, photo gallery, web form validation + sanitization, and responsive design ",
+			"jobDescription": "- Serve as a solo full-stack developer for a church website ([convergehawaii.org](https://convergehawaii.org)) using Node.js, Express, and Airtable API \n-Integrate live streaming, realtime video conferencing, dynamic rendering via Pug.js, interactive calendar, user-friendly spreadsheet-database CMS via Airtable, photo gallery, web form validation + sanitization, and responsive design ",
 			"occupation": {
 				"jobTitle": "Full-Stack Web Developer",
 				"jobTitleNormalized": "Full Stack Web Developer",
