@@ -3,8 +3,9 @@ import ReactMarkdown from "react-markdown";
 // import remarkGfm from "remark-gfm";
 import Header from "../components/Header";
 import styles from "../styles/Resume.module.css";
-import resumeData from "../resume.json";
-import { projects as projectData } from "../projects.js";
+import resumeData from "../data/resume.json";
+import { projects as projectData } from "../data/projects.js";
+import { education as educationData } from "../data/education.js";
 
 // Re-format Affinda-parsed dates (MM-DD-YY) to pretty date
 const MONTH_NAME_MAP = {
@@ -33,6 +34,54 @@ export default function Resume() {
 			<main className="app">
 				<Header />
 				<p>&nbsp;</p>
+				<div className="sticky-container">
+					<div className={styles.sectionHeader}>
+						<h2 className="blue-text" style={{ margin: 0 }}>
+							EDUCATION
+						</h2>
+					</div>
+					{educationData.map(
+						({ school, start, end, location, description }) => (
+							<div key={school}>
+								<div className={styles.resumeSectionFlex}>
+									{/* Job Title + Company */}
+									<div className={styles.jobTitleCompany}>
+										<strong>{school}</strong>
+
+										{/* <span className="hidden-touch">
+											&nbsp;&nbsp;/&nbsp;&nbsp;
+										</span>
+										<br className="hidden-desktop" />
+
+										<em>{organization}</em> */}
+									</div>
+
+									{/* Job Date + Location */}
+									<div>
+										<strong>{start}</strong>
+										<span>&nbsp;&#8211;&nbsp;</span>
+										<strong>{end}</strong>
+
+										<span className="hidden-touch">
+											&nbsp;&nbsp;/&nbsp;&nbsp;
+										</span>
+										<br className="hidden-desktop" />
+
+										<em>{location}</em>
+									</div>
+								</div>
+
+								{/* Job Description */}
+								<div style={{ marginTop: "-0.5rem" }}>
+									<div className="markdown" style={{ marginBottom: "2rem" }}>
+										<ReactMarkdown>{description}</ReactMarkdown>
+									</div>
+								</div>
+							</div>
+						)
+					)}
+					<p className="spacer">&nbsp;</p>
+				</div>
 				<div className="sticky-container">
 					<div className={styles.sectionHeader}>
 						<h2 className="blue-text" style={{ margin: 0 }}>

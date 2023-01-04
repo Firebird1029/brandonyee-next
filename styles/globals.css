@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
 
 :root {
+	--color-primary: #22288c;
 	--font-family-block: "Playfair Display", "Times New Roman", serif;
 	--link-hover-border: 1px solid #254f93;
 }
@@ -48,11 +49,11 @@ p {
 }
 
 a {
-	color: #22288c;
+	color: var(--color-primary);
 	text-decoration: none;
 }
 a:visited {
-	color: #22288c;
+	color: var(--color-primary);
 }
 a:hover {
 	color: #254f93;
@@ -112,7 +113,7 @@ button {
 	padding: 0.8rem 2.1rem;
 	margin: 0;
 	background-color: inherit;
-	color: #22288c;
+	color: var(--color-primary);
 
 	font-family: var(--font-family-block);
 	font-weight: 700;
@@ -160,7 +161,7 @@ button:active {
 
 /* Color Helpers */
 .blue-text {
-	color: #22288c;
+	color: var(--color-primary);
 }
 
 .green-text {
@@ -198,4 +199,8 @@ button:active {
 	font-weight: normal;
 	/* text-decoration: underline; */
 	border-bottom: 1px solid black;
+}
+
+.markdown a {
+	border-bottom: 1px solid var(--color-primary);
 }

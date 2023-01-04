@@ -2,7 +2,7 @@ import Image from "next/image";
 import { useRouter } from "next/router";
 import Header from "../components/Header";
 import styles from "../styles/Projects.module.css";
-import { projects } from "../projects.js";
+import { projects } from "../data/projects.js";
 
 export default function Projects() {
 	const router = useRouter();
