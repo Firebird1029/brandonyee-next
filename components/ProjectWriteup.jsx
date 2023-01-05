@@ -25,7 +25,10 @@ export default function ProjectWriteup({ name }) {
 	return (
 		<>
 			<div>
-				<ReactMarkdown>{markdownString}</ReactMarkdown>
+				<ReactMarkdown>
+					{/* https://stackoverflow.com/a/29194283 */}
+					{markdownString.replace(/(?=<!--)([\s\S]*?)-->/g, "")}
+				</ReactMarkdown>
 			</div>
 			<Script
 				src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.6.0/build/highlight.min.js"
