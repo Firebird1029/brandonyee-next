@@ -24,7 +24,7 @@ export default function ProjectWriteup({ name }) {
 
 	return (
 		<>
-			<div>
+			<div className="writeup-markdown">
 				<ReactMarkdown>
 					{/* https://stackoverflow.com/a/29194283 */}
 					{markdownString.replace(/(?=<!--)([\s\S]*?)-->/g, "")}

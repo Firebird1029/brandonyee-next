@@ -204,3 +204,12 @@ button:active {
 .markdown a {
 	border-bottom: 1px solid var(--color-primary);
 }
+
+.writeup-markdown img {
+	max-width: 100%;
+	padding: 0 1rem;
+}
+
+.writeup-markdown img + br + em {
+	padding: 0 1rem;
+}
