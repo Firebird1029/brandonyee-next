@@ -38,7 +38,7 @@ export default function Home() {
 							>
 								resume
 							</Link>
-							. Additionally, you can view some of my personal projects on the{" "}
+							. Or, you can view some of my personal projects on the{" "}
 							<Link
 								href="/projects"
 								style={{ borderBottom: "1px solid #254f93" }}
@@ -56,8 +56,8 @@ export default function Home() {
 					<p className="spacer" />
 					<p style={{ fontSize: "1.25rem", lineHeight: "2rem" }}>
 						When I&apos;m not writing software || setting GDB breakpoints ||
-						reading Techmeme tweets, you can find me hiking, swimming, or eating
-						ice cream. &nbsp;🍨
+						reading Techmeme tweets, you can find me hiking, swimming, listening
+						to music, or feeding ducks. &nbsp;🦆
 					</p>
 					<p className="spacer" />
 					{/* TODO obfuscate email */}
