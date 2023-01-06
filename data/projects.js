@@ -4,6 +4,7 @@ export const projects = [
 		title: "🛡 Distance Thermometer",
 		// "linkHref": "https://distancethermo.com/",
 		// "linkText": "distancethermo.com",
+		imageSrc: "/img/distancethermo.jpg",
 		description:
 			"A physical noncontact infrared thermometer with wireless capabilities built to detect and monitor employee health and time clock.",
 		year: "2020",
@@ -13,6 +14,9 @@ export const projects = [
 	// Face Masks
 	{
 		title: "😷 Face Masks Marketplace",
+		linkHref: "https://facemasks.staysixfeetapart.com/",
+		linkText: "facemasks.staysixfeetapart.com",
+		imageSrc: "/img/facemasks/landing.png",
 		description:
 			"Give, receive, and exchange face masks with nearby community members.",
 		year: "2020",

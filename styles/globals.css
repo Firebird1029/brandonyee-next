@@ -212,4 +212,5 @@ button:active {
 
 .writeup-markdown img + br + em {
 	padding: 0 1rem;
+	display: inline-block;
 }
