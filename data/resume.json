@@ -58,7 +58,7 @@
 				"monthsInPosition": 8,
 				"isCurrent": false
 			},
-			"jobDescription": "- Designed and built a memorial planning website for a rising startup client using Firebase, Pug ([planmemorial.com](https://planmemorial.com)), enabling them to become one of four finalists for the Manolo Sanchez Prize in the 2022 Yale Startup Competition \n-Built the frontend UI of an automated discounted cash flow (DCF) modeling program for a startup using React, eliminating manual DCF data entry & formatting which accounts for 30%+ of a typical entry-level investor's workflow ",
+			"jobDescription": "- Designed and built a memorial planning website for a rising startup client using **_Firebase, Pug_** ([planmemorial.com](https://planmemorial.com)), enabling them to become one of four finalists for the Manolo Sanchez Prize in the 2022 Yale Startup Competition \n-Built the frontend UI of an automated discounted cash flow (DCF) modeling program for a startup using **_React_**, eliminating manual DCF data entry & formatting which accounts for 30%+ of a typical entry-level investor's workflow ",
 			"occupation": {
 				"jobTitle": "Venture Project Specialist",
 				"jobTitleNormalized": "Venture Analyst",
@@ -94,7 +94,7 @@
 				"monthsInPosition": 3,
 				"isCurrent": false
 			},
-			"jobDescription": "- Contributed to open-source robotics software using ROS, Python, MAVLink, and ArduSub by designing ROS nodes to connect machine learning autonomy algorithms to a custom MAVLink-based autonomous underwater vehicle (AUV) \n-Set up RDP and VNC for remote Linux development on an ARM-based Jetson Xavier NX and AWS EC2 instances ",
+			"jobDescription": "- Contributed to open-source robotics software using **_ROS, Python, MAVLink, and ArduSub_** by designing ROS nodes to connect machine learning autonomy algorithms to a custom MAVLink-based autonomous underwater vehicle (AUV) \n-Set up RDP and VNC for remote Linux development on an ARM-based Jetson Xavier NX and AWS EC2 instances ",
 			"occupation": {
 				"jobTitle": "Undergraduate Research Assistant",
 				"jobTitleNormalized": "Undergraduate Research Assistant",
@@ -130,7 +130,7 @@
 				"monthsInPosition": 5,
 				"isCurrent": false
 			},
-			"jobDescription": "- Designed and built a full-stack city-wide, government parks & recreation campsite reservation management system, which manages 248 campsites, using MongoDB, Express, Angular, Angular Material UI, Node, and TypeScript \n-Ported Flash-based educational games to online city Educational Learning Center initiative using Angular, HTML Canvas ",
+			"jobDescription": "- Designed and built a full-stack city-wide, government parks & recreation campsite reservation management system, which manages 248 campsites, using **_MongoDB, Express, Angular, Angular Material UI, Node, and TypeScript_** \n-Created 3 interactive educational games from scratch for city's online [Learning Center](https://honolulu.gov/envwwm/wwm-learning.html) initiative using **_Angular, HTML Canvas_**",
 			"occupation": {
 				"jobTitle": "Software Engineering Intern",
 				"jobTitleNormalized": "Software Engineering Intern",
@@ -166,7 +166,7 @@
 				"monthsInPosition": 9,
 				"isCurrent": false
 			},
-			"jobDescription": "- Redesigned the website for Central Pacific Bank, Hawaii's 4th largest bank servicing 331.79K site visits a month, including handling ~2-3 weekly maintenance/feature tickets from client, using C#, Bootstrap 4, and Umbraco (cpb.bank) \n-Developed new homepage widgets for Board of Water Supply ([boardofwatersupply.com](https://boardofwatersupply.com)) and integrated deployment pipeline into the cloud using AWS Lambda, S3, DynamoDB, CloudWatch with server synchronization and feature rollback ",
+			"jobDescription": "- Redesigned the website for Central Pacific Bank, Hawaii's 4th largest bank servicing 331.79K site visits a month, including handling ~2-3 weekly maintenance/feature tickets from client, using **_C#, Bootstrap 4, and Umbraco_** ([cpb.bank](https://www.cpb.bank)) \n-Developed new homepage widgets for Board of Water Supply ([boardofwatersupply.com](https://boardofwatersupply.com)) and integrated deployment pipeline into the cloud using **_AWS Lambda, S3, DynamoDB, CloudWatch_** with server synchronization and feature rollback ",
 			"occupation": {
 				"jobTitle": "Software Engineering Intern",
 				"jobTitleNormalized": "Software Engineering Intern",
@@ -191,7 +191,7 @@
 				"monthsInPosition": 18,
 				"isCurrent": false
 			},
-			"jobDescription": "- Provide hands-on, project-based instruction to students from 5th to 11th grade in Python, Java, and web development \n-Lead weekly one-on-one private classes for 8-12 students and teach concepts with varying dificulty ranging from basic programming syntax to AP Computer Science A to advanced data structures, algorithms, and Big-O runtime analysis ",
+			"jobDescription": "- Provide hands-on, project-based instruction to students from 5th to 11th grade in **_Python, Java_**, and web development \n-Lead weekly one-on-one private classes for 8-12 students and teach concepts with varying dificulty ranging from basic programming syntax to AP Computer Science A to advanced data structures, algorithms, and Big-O runtime analysis ",
 			"occupation": {
 				"jobTitle": "Computer Science Instructor",
 				"jobTitleNormalized": "Computer Science Instructor",
@@ -210,7 +210,7 @@
 				"monthsInPosition": 3,
 				"isCurrent": false
 			},
-			"jobDescription": "- Mentored students in open-ended Python curriculum, encouraging them to build resilience, grit, and problem-solving \n-Recorded individual student progress and design customized, flexible, and tailored learning plans for each student ",
+			"jobDescription": "- Mentored students in open-ended **_Python_** curriculum, encouraging them to build resilience, grit, and problem-solving \n-Recorded individual student progress and design customized, flexible, and tailored learning plans for each student ",
 			"occupation": {
 				"jobTitle": "Python Instructor",
 				"jobTitleNormalized": "Python Architect",
@@ -223,7 +223,9 @@
 				},
 				"managementLevel": "Low"
 			}
-		},
+		}
+	],
+	"leadershipExperience": [
 		{
 			"id": 7820892,
 			"jobTitle": "Backend Development Lead, Founding Member",
@@ -235,7 +237,7 @@
 				"monthsInPosition": 24,
 				"isCurrent": false
 			},
-			"jobDescription": "- Oversaw agile development flow in JIRA for other developers in an emerging international edtech startup ([projectant.io](https://www.projectant.io)) \n-Performed code review on incoming pull requests, maintain API documentation in Postman, and refactor codebase to ensure modularity and scalability in Typescript, Node.js, Express, Passport.js, Stripe, PostgreSQL, Docker, and TypeORM \n-Organized and onboarded a team of six Open Water Accelerator developer interns by setting up documentation, AWS keys, Dockerfiles, and linting standards to enhance experience for all developers and maintain consistency in codebase ",
+			"jobDescription": "- Oversaw agile development flow in **_JIRA_** for other developers in an emerging international edtech startup ([projectant.io](https://www.projectant.io)) \n-Performed code review on incoming pull requests, maintain API documentation in **_Postman_**, and refactor codebase to ensure modularity and scalability in **_Typescript, Node.js, Express, Passport.js, Stripe, PostgreSQL, Docker, and TypeORM_** \n-Organized and onboarded a team of six [Open Water Accelerator](https://openwatervc.com/) developer interns by setting up documentation, AWS keys, Dockerfiles, and linting standards to enhance experience for all developers and maintain consistency in codebase ",
 			"occupation": {
 				"jobTitle": "Backend Development Lead, Founding Member",
 				"jobTitleNormalized": "Founding Member",
@@ -265,7 +267,7 @@
 				"monthsInPosition": 8,
 				"isCurrent": false
 			},
-			"jobDescription": "- Built an Internet-connected, non-contact infrared thermometer with wireless capability allowing employers to log, track, and monitor employee temperature, manage employee time clock, and receive sensitive above-threshold email alerts \n-Developed a security-first backend framework with user access level control, Azure-powered facial recognition, and REST API enabling mobile developers to obtain data, using Node.js, Express, JWT, Sendgrid, MongoDB, Socket.io, and Azure \n-Implemented a frontend web interface using Vue.js for clients including HPC Foods Ltd. and Star Protection Agency LLC ",
+			"jobDescription": "- Built an Internet-connected, non-contact infrared thermometer with wireless capability allowing employers to log, track, and monitor employee temperature, manage employee time clock, and receive sensitive above-threshold email alerts \n-Developed a security-first backend framework with user access level control, Azure-powered facial recognition, and **_REST API_** enabling mobile developers to obtain data, using **_Node.js, Express, JWT, Sendgrid, MongoDB, Socket.io, and Azure_** \n-Implemented a frontend web interface using **_Vue.js_** for clients including HPC Foods Ltd. and Star Protection Agency LLC ",
 			"occupation": {
 				"jobTitle": "Backend Engineer, Startup Co-Founder",
 				"jobTitleNormalized": "Lead Backend Developer",
@@ -301,7 +303,7 @@
 				"monthsInPosition": 67,
 				"isCurrent": true
 			},
-			"jobDescription": "- Serve as a solo full-stack developer for a church website ([convergehawaii.org](https://convergehawaii.org)) using Node.js, Express, and Airtable API \n-Integrate live streaming, realtime video conferencing, dynamic rendering via Pug.js, interactive calendar, user-friendly spreadsheet-database CMS via Airtable, photo gallery, web form validation + sanitization, and responsive design ",
+			"jobDescription": "- Serve as a solo full-stack developer for a church website ([convergehawaii.org](https://convergehawaii.org)) using **_Node.js, Express, and Airtable API_** \n-Integrate live streaming, realtime video conferencing, dynamic rendering via **_Pug.js_**, interactive calendar, user-friendly spreadsheet-database CMS via Airtable, photo gallery, web form validation + sanitization, and responsive design ",
 			"occupation": {
 				"jobTitle": "Full-Stack Web Developer",
 				"jobTitleNormalized": "Full Stack Web Developer",
@@ -337,7 +339,7 @@
 				"monthsInPosition": 45,
 				"isCurrent": false
 			},
-			"jobDescription": "- Designed and built an online schedule generator for remote learning during the COVID-19 pandemic with Express.js and HTML2Canvas; used by 1,515 (~90% of) high school students at Punahou School, endorsed by school deans \n-Designed and built a \"Mahalogram\" online service that enabled students/faculty to send virtual thank you cards to other students/faculty with Node.js; used by over 500 students/faculty (~4.65 GB worth of digital cards) during two-week pilot ",
+			"jobDescription": "- Designed and built an online schedule generator for remote learning during the COVID-19 pandemic with **_Express.js_** and **_HTML2Canvas_**; used by 1,515 (~90% of) high school students at Punahou School, endorsed by school deans \n-Designed and built a \"Mahalogram\" online service that enabled students/faculty to send virtual thank you cards to other students/faculty with **_Node.js_**; used by over 500 students/faculty (~4.65 GB worth of digital cards) during two-week pilot ",
 			"occupation": {
 				"jobTitle": "Student Programmer",
 				"jobTitleNormalized": "Student Programmer",
@@ -373,7 +375,7 @@
 				"monthsInPosition": 45,
 				"isCurrent": false
 			},
-			"jobDescription": "- Led an FTC robotics team to win Hawaii State Championships Alliance Finalists twice as team captain & lead programmer \n-Used Java and Arduino to program FTC and FRC robots, mentored upcoming FRC robotics programmers ",
+			"jobDescription": "- Led an FTC robotics team to win Hawaii State Championships Alliance Finalists twice as team captain & lead programmer \n-Used **_Java_** and **_Arduino_** to program FTC and FRC robots, mentored upcoming FRC robotics programmers ",
 			"occupation": {
 				"jobTitle": "FIRST Robotics Captain & Programmer",
 				"jobTitleNormalized": "Captain/First Officer",

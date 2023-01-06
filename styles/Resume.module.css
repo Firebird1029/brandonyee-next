@@ -1,3 +1,7 @@
+.sectionContainer {
+	margin-top: 5rem;
+}
+
 .sectionHeader {
 	position: -webkit-sticky;
 	position: sticky;

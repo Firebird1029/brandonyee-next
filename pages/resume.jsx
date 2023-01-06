@@ -34,7 +34,7 @@ export default function Resume() {
 			<main className="app">
 				<Header />
 				<p>&nbsp;</p>
-				<div className="sticky-container">
+				<div className={styles.sectionContainer} style={{ marginTop: "unset" }}>
 					<div className={styles.sectionHeader}>
 						<h2 className="blue-text" style={{ margin: 0 }}>
 							EDUCATION
@@ -80,9 +80,8 @@ export default function Resume() {
 							</div>
 						)
 					)}
-					<p className="spacer">&nbsp;</p>
 				</div>
-				<div className="sticky-container">
+				<div className={styles.sectionContainer}>
 					<div className={styles.sectionHeader}>
 						<h2 className="blue-text" style={{ margin: 0 }}>
 							WORK EXPERIENCE
@@ -138,8 +137,63 @@ export default function Resume() {
 						)
 					)}
 				</div>
-				<p>&nbsp;</p>
-				<div className="sticky-container">
+				<div className={styles.sectionContainer}>
+					<div className={styles.sectionHeader}>
+						<h2 className="blue-text" style={{ margin: 0 }}>
+							LEADERSHIP & ACTIVITIES
+						</h2>
+					</div>
+					{resumeData.leadershipExperience.map(
+						({
+							id,
+							jobTitle,
+							jobDescription,
+							organization,
+							dates,
+							location,
+						}) => (
+							<div key={id}>
+								<div className={styles.resumeSectionFlex}>
+									{/* Job Title + Company */}
+									<div className={styles.jobTitleCompany}>
+										<strong>{jobTitle}</strong>
+
+										<span className="hidden-touch">
+											&nbsp;&nbsp;/&nbsp;&nbsp;
+										</span>
+										<br className="hidden-desktop" />
+
+										<em>{organization}</em>
+									</div>
+
+									{/* Job Date + Location */}
+									<div>
+										<strong>{parseDate(dates.startDate)}</strong>
+										<span>&nbsp;&#8211;&nbsp;</span>
+										<strong>{parseDate(dates.endDate)}</strong>
+
+										<span className="hidden-touch">
+											&nbsp;&nbsp;/&nbsp;&nbsp;
+										</span>
+										<br className="hidden-desktop" />
+
+										<em>{location ? location.rawInput : "Remote"}</em>
+									</div>
+								</div>
+
+								{/* Job Description */}
+								<div style={{ marginTop: "-0.5rem" }}>
+									<div className="markdown" style={{ marginBottom: "2rem" }}>
+										<ReactMarkdown>
+											{jobDescription.replaceAll("\n-", "\n- ")}
+										</ReactMarkdown>
+									</div>
+								</div>
+							</div>
+						)
+					)}
+				</div>
+				<div className={styles.sectionContainer}>
 					<div className={styles.sectionHeader}>
 						<h2 className="blue-text" style={{ margin: 0 }}>
 							PROJECTS
