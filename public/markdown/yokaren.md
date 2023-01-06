@@ -1,6 +1,7 @@
 # Yo Karen
 
-Github: [github.com/Firebird1029/yo-karen](https://github.com/Firebird1029/yo-karen)
+Github: [github.com/Firebird1029/yo-karen](https://github.com/Firebird1029/yo-karen)  
+Install Bot to Discord Server: [Link](https://discord.com/api/oauth2/authorize?client_id=760324569793429536&permissions=8&scope=bot) (currently disabled)
 
 ![1](../img/yokaren/1.png "1")
 
