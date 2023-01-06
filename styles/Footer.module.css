@@ -1,0 +1,20 @@
+.parallax {
+	background-image: url("/img/wave-circle.png");
+	min-height: 5rem;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: 50% calc(100vh - 7rem);
+	background-repeat: no-repeat;
+	background-size: 3rem auto;
+
+	box-shadow: 0px -15px 0px white;
+}
+
+.parallax > div {
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	z-index: -1;
+}

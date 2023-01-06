@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import styles from "../styles/Projects.module.css";
 import { projects } from "../data/projects.js";
 
@@ -16,8 +17,7 @@ export default function Projects() {
 				style={{
 					// https://www.schemecolor.com/beautiful-light-pastels-color-scheme.php
 					// linear-gradient(transparent, #DEFDE0, #DEF3FD, #FDDFDF, #FCF7DE, transparent)
-					background:
-						"linear-gradient(transparent, #DEF3FD, #DEF3FD, transparent)",
+					background: "linear-gradient(white, #DEF3FD, #DEF3FD, white)",
 				}}
 			>
 				<section
@@ -70,6 +70,7 @@ export default function Projects() {
 					</div>
 				</section>
 			</section>
+			<Footer />
 		</>
 	);
 }

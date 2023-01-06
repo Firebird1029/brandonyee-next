@@ -47,20 +47,6 @@
 	.jobTitleCompany {
 		margin-bottom: 0rem;
 	}
-
-	/* Fancy Styling */
-	.parallax {
-		background-image: url("/img/wave-circle.png");
-		min-height: 5rem;
-
-		/* Create the parallax scrolling effect */
-		background-attachment: fixed;
-		background-position: 50% calc(100vh - 7rem);
-		background-repeat: no-repeat;
-		background-size: 3rem auto;
-
-		box-shadow: 0px -15px 0px white;
-	}
 }
 
 @media only screen and (min-device-width: 1024px) {

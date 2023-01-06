@@ -2,6 +2,7 @@
 import ReactMarkdown from "react-markdown";
 // import remarkGfm from "remark-gfm";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import styles from "../styles/Resume.module.css";
 import resumeData from "../data/resume.json";
 import { projects as projectData } from "../data/projects.js";
@@ -227,19 +228,7 @@ export default function Resume() {
 						))}
 				</div>
 			</main>
-			<section className={`${styles.parallax} hidden-touchs`}>
-				<div
-					style={{
-						width: "100%",
-						textAlign: "center",
-						position: "fixed",
-						bottom: 0,
-						zIndex: -1,
-					}}
-				>
-					<h3 className="unselectable">BRANDON YEE</h3>
-				</div>
-			</section>
+			<Footer />
 		</>
 	);
 }

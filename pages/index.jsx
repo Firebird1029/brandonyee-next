@@ -1,10 +1,10 @@
-import Header from "../components/Header";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Link from "next/link";
 import Image from "next/image";
-// import styles from "../styles/Home.module.css";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Home() {
 	return (
@@ -89,6 +89,7 @@ export default function Home() {
 					</span>
 				</div>
 			</main>
+			<Footer />
 		</>
 	);
 }
